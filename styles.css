@@ -1,0 +1,97 @@
+main {
+	position: absolute; 
+	/*left: 40px;
+	right: 40px;
+	top: 40px;
+	bottom: 40px;*/
+	width: 800px;
+	height: 600px;
+	min-height: 300px;
+	min-width: 400px;
+	border: 1px solid brown;
+}
+.katak {
+	position: absolute;
+	border: 1px dashed red;
+	/*border-style: solid;
+	width: 300px;
+	height: 180px;
+	float: left;
+	margin: 40px;*/
+	z-index: 2;
+}
+.title1 { 
+	top: calc(100% - 85%);
+	left: 100px;
+	bottom: calc(50% + 10px);
+	right: calc(100% - 40%);
+	border-top-left-radius: 90px;
+	background-color: mediumblue;
+}
+.title2 { 
+	top: calc(100% - 85%);
+	right: 100px;
+	bottom: calc(50% + 10px);
+	left: calc(100% - 40%);
+	border-top-right-radius: 90px;
+	background-color: mediumblue; 
+}
+.title3 {  
+	bottom: 50px;
+	left: 100px;
+	right: calc(100% - 40%);
+	top: calc(50% + 40px);
+	border-bottom-left-radius: 90px;
+	background-color: mediumblue;
+}
+.title4 { 
+	right: 100px;
+	bottom: 50px;
+	left: calc(100% - 40%);
+	top: calc(50% + 40px);
+	border-bottom-right-radius: 90px;
+	background-color: mediumblue;
+}
+.title5 {
+	position: absolute;
+	border: 2px solid mediumblue;
+	top: calc(100% - 70%);
+	right: calc(100% - 70%);
+	bottom: 120px;
+	left: calc(100% - 70%);
+	border-radius: 250px;
+	z-index: 20;
+	background-color: green;
+}
+.title6 {
+	border: 2px solid aqua;
+	border-radius: 200px;
+	position: absolute;
+	z-index: 30;
+	background-color: purple;
+	top: 10px;
+	left: calc:(100% - 60%);
+	bottom: 520px;
+	right: calc:(100% - 60%);
+	
+}
+/*.title7 {
+	position: absolute;
+	border: 2px solid white;
+	background-color: brown;
+	z-index: 50;
+	top: 250px;
+	left: 98px;
+	bottom: 220px;
+	right: 98px;
+}
+.title8 {
+	position: absolute;
+	border: 2px solid gray;
+	z-index: 60;
+	top: 100px;
+	left: 300px;
+	bottom: 20px;
+	right: 300px;
+	background: gray;
+}
