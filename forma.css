@@ -1,0 +1,141 @@
+.main {
+  position: absolute;
+  border: 2px solid #d3d3d3;
+  top: 50px;
+  left: 400px;
+  height: 500px;
+  width: 500px;
+  background: aqua;
+}
+.main:hover {
+	box-shadow: 0 3px 15px #d3d3d3;
+}
+.tepa {
+  position: relative;
+  border-bottom: 2px solid #d3d3d3;
+  float: top;
+  height: 50px;
+}
+.x1 {
+  position: relative;
+  border-left: 1px solid #d3d3d3;
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+.x1:hover {
+	box-shadow: 0 3px 18px red;
+}
+.chiqish {
+	position: relative;
+	transition: 0.2s;
+	background:
+}
+.x2 {
+  position: relative;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  height: 50px;
+  float: right;
+  width: 50px;
+  background: #f1eaea78;
+}
+.x2:hover {
+	box-shadow: 0 3px 18px blue;
+	transition: 0.2s;
+	background: #63b5f7;
+}
+.x2:active {
+	background: #5d98d9;
+	transition: 0.2s;
+}
+.oyna1 {
+	position: relative;
+	height: 20px;
+    width: 20px;
+	border: 1px solid gray;
+	background: white;
+	top: 10px;
+	left: 15px;
+}
+.oyna2 {
+	position: relative;
+	height: 20px;
+    width: 20px;
+	border: 1px solid gray;
+	background: white;
+	top: -5px;
+	left: 10px;
+}
+.oyna3 {
+	position: relative;
+	height: 10px;
+    width: 10px;
+	border: 1px solid gray;
+	background: #f1eaea78;
+	bottom: 22px;
+	left: 15px;
+}
+
+.x3 {
+  position: relative;
+  border-left: 2px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  background: #f1eaea78;
+  height: 50px;
+  float: right;
+  width: 50px;
+}
+.x3:hover {
+	box-shadow: 0 3px 18px blue;
+	transition: 0.2s;
+	background: #63b5f7;
+}
+.x3:active {
+	background: #5d98d9;
+	transition: 0.2s;
+}
+.chiziq {
+	position: relative;
+	height: 10px;
+    width: 25px;
+	border: 1px solid gray;
+	background: white;
+	top: 30px;
+	left: 10px;
+}
+.fname {
+  padding: 10px 100px;
+  box-sizing: border-box;
+}
+.lname {
+  box-sizing: border-box;
+}
+.xname {
+	background-color: #f1f1f1;
+}
+label {
+	margin-left: 20px;
+}
+.a1 {
+	padding: 10px 100px;
+	width: 100px;
+	margin: 30px 50px;
+}
+./tugma1 {
+  position: relative;
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  float: right;
+  margin: 10px 20px;
+}
+.main2 {
+  position: absolute;
+  border: 2px solid #d3d3d3;
+  top: 50px;
+  left: 400px;
+  height: 500px;
+  width: 500px;
+  background: red;
+}

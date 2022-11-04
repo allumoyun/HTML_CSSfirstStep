@@ -1,0 +1,51 @@
+.b1 {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.b1:hover {
+	color: red;
+	background: blue;
+}
+.b2 {
+	cursor: none;
+}
+.b2:hover {
+	color: #e9e7e7;
+	background: #221f1f;
+}
+.b3 {
+	cursor: default;
+}
+.b3:hover {
+	color: #e9e7e7;
+	background: #221f1f;
+}
+.b4 {
+	cursor: progress;
+}
+.b4:hover {
+	color: #e9e7e7;
+	background: #221f1f;
+}
+.b5 {
+	cursor: wait;
+}
+.b5:hover {
+	color: #e9e7e7;
+	background: #221f1f;
+}
+.b6 {
+	cursor: zoom-in;
+}
+.b6:hover {
+	color: #e9e7e7;
+	background: #221f1f;
+}
+.b7 {
+	cursor: grab;
+}
+.b7:hover {
+	color: #e9e7e7;
+	background: #221f1f;
+}

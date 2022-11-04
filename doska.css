@@ -1,0 +1,40 @@
+main {
+	border: 4px solid gray;
+	margin: 12px;
+	display: flex;
+	flex-wrap: wrap;
+}
+main div {
+	border: 1px solid gray;
+	min-height: 120px;
+	flex-basis: calc(25% - 2px);
+}
+main div:hover{
+	color: blue;
+}
+main div p::first-letter {
+  color: red;
+  font-size: 200%;
+}
+.x1::first-line {
+	color: purple;
+	font-size: 150%;
+}
+.x2::selection {
+	color: green;
+	font-size: 200%;
+}
+
+
+/*main div:nth-last-child(2n + 1) {
+	background-image: linear-gradient(to top left, red, blue);
+}
+main div:nth-last-child(2n) {
+	background-image: linear-gradient(to top right, green, yellow);
+}
+./*a1{
+	background-image: linear-gradient(to top left, red, blue);
+}
+.a2{
+	background-image: linear-gradient(to top right, green, yellow);
+}*/
