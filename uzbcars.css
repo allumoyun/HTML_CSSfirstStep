@@ -1,0 +1,37 @@
+.q1 {
+	text-align: center;
+	color: navy;
+	animation-name: sarlavha;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes sarlavha {
+	from { 
+		color: black;
+	}
+	to { 
+		color: navy
+	}
+}
+.t0 {
+	text-align: center;
+}
+.d0 {
+	width: 360px;
+	height: 240px;
+	margin: 20px;
+}
+.r0 {
+	position: relative;
+	left: calc(0% + 50px);
+	width: 250px;
+}
+.a1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.x {
+	background-image: url(pictures/background.jpg);
+	background-size: 100%;
+}

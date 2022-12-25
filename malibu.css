@@ -1,0 +1,61 @@
+.a1{
+	transition-duration: 2s;
+	filter: invert(100%);
+}
+.a1:hover{
+	filter: invert(0%);
+}
+.p1{
+	flex-wrap: wrap;	
+	display: flex;
+}
+.k1{
+	transition-duration: 2s;
+	border: 1px solid black;
+	width: calc(25% - 10px);
+	margin: 10px;
+	height: 200px;
+}
+.k1:active {
+	transform: scale();
+}
+.r1{
+	transition-duration: 2s;
+	background-image: url(pictures/malibu1.png);
+	background-size: 100%;
+}
+.r1:hover {
+	transform: translate(0px, 100px);
+	box-shadow: 0px 0px 10px 10px gray;
+}
+.r2{
+	transition-duration: 2s;
+	background-image: url(pictures/malibu2.jpg);
+	background-size: 100%;
+}
+.r2:hover {
+	transform: translate(0px, 100px);
+	box-shadow: 0px 0px 10px 10px gray;
+}
+.r3{
+	transition-duration: 2s;
+	background-image: url(pictures/malibu3.webp);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.r3:hover {
+	transform: translate(0px, 100px);
+	box-shadow: 0px 0px 10px 10px gray;
+}
+.r4{
+	transition-duration: 2s;
+	background-image: url(pictures/malibu4.jpg);
+	background-size: 100%;
+}
+.r4:hover {
+	transform: translate(0px, 100px);
+	box-shadow: 0px 0px 10px 10px gray;
+}
+.a2 {
+	display: flex;
+}
